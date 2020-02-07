@@ -1,0 +1,21 @@
+IF
+GlobalGT("CbMalteseArtifact","GLOBAL",5)
+Global("CBCyricCome","Global",0)
+CombatCounter(0)
+OR(6)
+HasItemEquiped("CbMalr6a",Player1)
+HasItemEquiped("CbMalr6a",Player2)
+HasItemEquiped("CbMalr6a",Player3)
+HasItemEquiped("CbMalr6a",Player4)
+HasItemEquiped("CbMalr6a",Player5)
+HasItemEquiped("CbMalr6a",Player6)
+THEN
+RESPONSE #100
+SetGlobal("CBCyricCome","Global",1)
+Wait(1)
+StartCutSceneMode()
+CreateCreatureObjectDoor("chalcy01",Player1,0,0,0)
+Wait(8)
+EndCutSceneMode()
+ActionOverride("Chalcy01",StartDialogNoSet([PC]))
+END

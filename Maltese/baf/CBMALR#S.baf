@@ -1,0 +1,100 @@
+IF
+	Global("CbMalteseArtifact","GLOBAL",8)
+	Global("CbPartyJoinsMalteseMage","GLOBAL",8)
+	Global("CbFakeMalteseRitual","GLOBAL",2)
+	Exists(Myself)
+THEN
+	RESPONSE #50
+		Wait(3)
+		DisplayStringHead(Myself,@550127)
+		Wait(1)
+		EscapeArea()
+	RESPONSE #50
+		Wait(10)
+		DisplayStringHead(Myself,@550128)
+		Wait(1)
+		EscapeArea()
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	OR(2)
+		Allegiance("CBMALR1",ENEMY)
+		Allegiance("CBMALRDM",ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END	
+
+IF
+	Global("CbMalteseArtifact","GLOBAL",8)
+	Global("CbPartyJoinsMalteseMage","GLOBAL",8)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Shout(345)
+		Enemy()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	!Global("CbSpawnMageProtectors","MYAREA",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpawnMageProtectors","MYAREA",1)
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	OR(3)
+		Allegiance(Myself,GOODBUTBLUE)
+		Allegiance(Myself,NEUTRAL)
+		Allegiance(Myself,ALLY)
+THEN
+	RESPONSE #100
+		Shout(345)
+		Enemy()
+END
+
+IF
+	Heard([ANYONE],345)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+		MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+	Heard([ANYONE],345)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastHeardBy(Myself))
+		Continue()
+END
+
+IF
+	Heard([ANYONE],346)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(LastAttackerOf(LastHeardBy(Myself)),30)
+END
+
+IF
+	Heard([ANYONE],346)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastAttackerOf(LastHeardBy(Myself)),30)
+END
+
+IF
+	HitBy(Myself,CRUSHING)
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),15)
+END
+
+

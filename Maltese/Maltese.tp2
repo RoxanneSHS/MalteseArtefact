@@ -1,0 +1,148 @@
+BACKUP ~Maltese/backup~
+AUTHOR ~Roxanne@baldursextendedworld.com based on a Charles Bisson's CtB quest~
+
+AUTO_TRA ~Maltese/TRA~
+
+VERSION ~v0.1~
+
+LANGUAGE ~English~ ~english~ ~Maltese/TRA/setup.tra~
+
+BEGIN ~Of Elves and Artefacts~
+
+COPY ~Maltese/Cre/CBMALMGE.CRE~ ~override~ 
+SAY NAME1 @35    
+SAY NAME2 @35
+COPY ~Maltese/Cre/CBYBGIR1.CRE~ ~override~ 
+SAY NAME1 @35    
+SAY NAME2 @35
+COPY ~Maltese/Cre/CBMALR1.CRE~ ~override~ 
+SAY NAME1 @36    
+SAY NAME2 @36
+COPY ~Maltese/Cre/CBMALR5A.CRE~ ~override~ 
+SAY NAME1 @48    
+SAY NAME2 @48
+COPY ~Maltese/Cre/CBMALR6.CRE~ ~override~ 
+SAY NAME1 @49    
+SAY NAME2 @49
+COPY ~Maltese/Cre/CBMALR7.CRE~ ~override~ 
+SAY NAME1 @50    
+SAY NAME2 @50
+COPY ~Maltese/Cre/CBMALR8.CRE~ ~override~ 
+SAY NAME1 @50    
+SAY NAME2 @50
+COPY ~Maltese/Cre/CBMALRDM.CRE~ ~override~ 
+SAY NAME1 @51    
+SAY NAME2 @51
+COPY ~Maltese/Cre/CBMALSPY.CRE~ ~override~
+COPY ~Maltese/Cre/CBELEDI1.CRE~ ~override~
+SAY NAME1 @35    
+SAY NAME2 @35
+COPY ~Maltese/Cre/CBELEDI2.CRE~ ~override~
+SAY NAME1 @36    
+SAY NAME2 @36
+COPY ~Maltese/Cre/CBELEDI3.CRE~ ~override~
+COPY ~Maltese/Cre/CBELEDI4.CRE~ ~override~
+COPY ~Maltese/Cre/CBELEDI5.CRE~ ~override~
+COPY ~Maltese/Cre/CBMALR2.CRE~ ~override~
+COPY ~Maltese/Cre/CBMALR3.CRE~ ~override~
+COPY ~Maltese/Cre/CBMALR4.CRE~ ~override~
+COPY ~Maltese/Cre/CBMALR5.CRE~ ~override~
+
+COPY ~Maltese/Itm/CBMALMGE.ITM~ ~override~
+  SAY NAME1 @650357
+  SAY NAME2 @650358
+  SAY UNIDENTIFIED_DESC @650359
+  SAY DESC @650360
+COPY ~Maltese/Itm/CBMALDUP.ITM~ ~override~
+  SAY NAME1 @650355
+  SAY NAME2 @650355
+  SAY UNIDENTIFIED_DESC @650356
+  SAY DESC @650356
+COPY ~Maltese/Itm/CBMALR6a.ITM~ ~override~
+  SAY NAME1 @650372
+  SAY NAME2 @650373
+  SAY UNIDENTIFIED_DESC @650374
+  SAY DESC @650375
+COPY ~Maltese/Itm/CBMALR6c.ITM~ ~override~
+  SAY NAME1 @650372
+  SAY NAME2 @650373
+  SAY UNIDENTIFIED_DESC @650374
+  SAY DESC @650375
+COPY ~Maltese/Itm/CBMALR1a.ITM~ ~override~
+  SAY NAME2 @650361
+  SAY DESC @650362
+COPY ~Maltese/Itm/CBMALR2a.ITM~ ~override~
+  SAY NAME2 @650363
+  SAY DESC @650364
+COPY ~Maltese/Itm/CBMALR3a.ITM~ ~override~
+  SAY NAME2 @650365
+  SAY DESC @650366
+  COPY ~Maltese/Itm/CBMALR4a.ITM~ ~override~
+  SAY NAME2 @650368
+  SAY DESC @650369
+COPY ~Maltese/Itm/CBMALR5a.ITM~ ~override~
+  SAY NAME2 @263
+  SAY DESC  @264
+COPY ~Maltese/Itm/CBMALR5a.SPL~ ~override~
+  SAY NAME2 @263
+  SAY DESC  @264
+COPY ~Maltese/Itm/CBMALR6b.ITM~ ~override~
+  SAY NAME1 @650376
+  SAY NAME2 @650376
+COPY ~Maltese/Itm/CBMALR3b.ITM~ ~override~
+  SAY NAME1 @650367
+  SAY NAME2 @650367
+
+COPY ~Maltese/SPL~ ~override~
+
+
+APPEND ~ITEMDIAL.2DA~
+~CBMALMGE      5689   CBMALMGE~
+
+COPY_EXISTING ~AR0500.ARE~ ~override~
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+	READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "CbMaltese")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN 
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         		= 0    					
+			fj_box_left     		= 1039                       
+			fj_box_top      		= 3163                       
+			fj_box_right    		= 1244                       
+			fj_box_bottom   		= 3477                       
+			fj_cursor_idx           = 5						
+			fj_flags                = 0x00000001                       
+			fj_trap_active          = 1                       
+			fj_loc_x				= 1141                       
+			fj_loc_y				= 3321                      
+			fj_vertex_0     		= 1039 + (3241 << 16)    
+			fj_vertex_1     		= 1116 + (3477 << 16)    
+			fj_vertex_2     		= 1244 + (3396 << 16)
+			fj_vertex_3     		= 1156 + (3163 << 16)    
+			fj_vertex_4     		= 1039 + (3241 << 16)
+			STR_VAR                                                     
+			fj_structure_type   = region                                
+			fj_name             = CbMaltese                        
+			fj_reg_script       = CBMALMGE					
+		END
+	END
+
+COMPILE ~Maltese/D~
+COMPILE ~Maltese/Baf~
+EXTEND_TOP ~ar2008.bcs~ ~Maltese/extend/ar2008.baf~
+EXTEND_TOP ~ar2000.bcs~ ~Maltese/extend/ar2000.baf~
+EXTEND_TOP ~ar0334.bcs~ ~Maltese/extend/ar0334.baf~
+EXTEND_TOP ~ar1202.bcs~ ~Maltese/extend/ar1202.baf~
+EXTEND_TOP ~ar1401.bcs~ ~Maltese/extend/ar1401.baf~
+EXTEND_BOTTOM ~baldur.bcs~ ~Maltese/extend/Cyric.baf~
+
+ADD_JOURNAL @7 @8 USING ~Maltese/TRA/CBMALMGE.tra~
+ADD_JOURNAL @550163 @550164 @550158 USING  ~Maltese/TRA/setup.tra~
+ADD_JOURNAL @74 @75 @76 @77 @78 USING ~Maltese/TRA/CBYbgir1.tra~

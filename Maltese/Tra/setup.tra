@@ -1,0 +1,155 @@
+@35 = ~Eleanor Ybgir~
+@36 = ~Khaddyr~
+@48 = ~Phantom Arm~
+@49 = ~Druid Bodyguard~
+@50 = ~Apprentice Bodyguard~
+@51 = ~Permatrated Mage~
+@263 = ~Whirlwind of Steel~
+@264 = ~Whirlwind of Steel (Conjuration/Summoning)
+
+Range: 5 yards/level
+Duration: 1 round/level
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: Half
+
+This spell creates five phantom arms wielding scimitars. Both limbs and weapons were magical constructs and not actual, tangible things. The floating, flying limbs hacked silently at targets until dispelled, warded away by magical barriers, willed out of existance by the caster, or by the spell expiring.  They strike twice per round at THAC0 8.  Each scimitar inflicts 1d8 points of slashing or piercing damage but are considered a +2 weapon for purposes of determining what it can hit.~
+@550071 = ~Eleanor.  Seems you are doing some research that I am not paying you for.~
+@550072 = ~Do you want to explain why you are in this backwater town?  I am sure there are no important texts here.  What knowledge could you possible find here that may be something I need to know?~
+@550073 = ~I... I heard a rumour.  That's all.  J... just a rumour about the artefact.  I.. I thought it may be important, b.. but it was a false reference.~
+@550074 = ~Did I not tell you to inform me of your activities?  I know I have been quite clear in my instructions.  Hmmm.  No.  I do not believe you heard a rumour at all.~
+@550075 = ~Now, tell me the truth.  What did you do here in Trademeet?~
+@550076 = ~I will not betray those who are your enemies!  You cannot possibly hope to succeed with the ritual!~
+@550077 = ~But you are wrong, dear Eleanor.  I will succeed.  I will, and it is a pity you shall not witness my triumph.  I shall enjoy slaying you!  Take her, men.!~
+@550078 = ~This takes too long!  You die now, foolish elf!~
+@550127 = ~Stupid wizards.  Always playing with forces they don't understand.~
+@550128 = ~Serves the fool right for messing with magic.~
+@550129 = ~Myrkul, or some other higher power, has deemed you unworthy to wear the Crown of Horns.  It has been taken from your possession, and you are temporarily disoriented as the power of the item is torn from you.~
+@550158 = ~Of Elves and Artefacts
+
+After leaving the Temple of Waukeen in Trademeet, Eleanor was attacked by the mage she told me about.  He had a few bodyguards with him, but did not need them.  His magic was strong, much to strong for Eleanor, who was killed by the mage in an earnest spell battle for her very life.  I shall honor her sacrifice, and not let it be in vain.~
+@550163 = ~Of Elves and Artefacts
+
+I have brought the Crown of Horns to my friend Cromwell.  He was able to successfully destroy the ancient evil that made up the crown, something that the great mage Khelben was unable to do years ago.  Khaddyr the mage who wanted to attempt Permatration is no longer a threat, and poor Eleanor, the elfwoman I met before this all started can rest easy.  Once again, I do believe I have saved Faerun from certain destruction.~
+@550164 = ~Of Elves and Artefacts
+
+While walking through the Bridge District of Athkatla, an elf, whom I do not know, approached me with much trepidation.  She did not say anything, but surreptitiously dropped a small statuette into my pack.  I do not know why, yet I do not know what the properties of the statuette are yet.  I shall have to investigate it, and perhaps the elf may lead me to yet another adventure.~
+@550166 = ~You know what to do.  Begin the ceremony now!~
+@550167 = ~Good!  Good!  Initiate the protections!~
+@550168 = ~Continue!  No distractions!  We cannot allow the magic to grow wild!~
+@550169 = ~Something... wait!  No!  This is not right!  Something is wrong!~
+@550170 = ~It is working!  Keep casting!  I can feel the Power!~
+@550171 = ~Of Elves and Artefacts
+
+I have found a way to stop the mage Khaddyr from completing his permatration ritual.  What began as an elusive quest with a scared elfwoman is almost complete.  I have recovered the real Crown of Horns, but have not yet decided what should be done with it.  I could keep it, but it's evil would still exist in Faerun.  Perhaps it would be best if the Crown were destroyed.~
+@550175 = ~During the ritual, you will need to concentrate on the tasks you must do.  Failure on either of your parts will cost you your lives.~
+@550176 = ~During the first stage, we will be casting spells to protect ourselves from the onslaught of magical energy that the tree of us channel from the Weave and keep it within our control.  Maintain control.  That is the key.~
+@550177 = ~I will begin the ritual by casting a protective spell on myself.  As soon as I have completed, both of you will need to protect yourselves against the energy.  (points to an apprentice) You will cast the same spell as I, a Minor Globe, while you (points to the other apprentice) will cast an Immunity against Divination magics.~
+@550178 = ~There can be no mistakes.  We will rehearse now.  Prepare yourselves.~
+@550179 = ~Good.  During the ritual, do exactly as you just have.  Do not loose control over the magical energies.~
+@550180 = ~Rest now.  We will continue rehearsing later.~
+@550181 = ~It will be very important during the ritual that you do not let anything disturb your spellcasting, including any forces which I unleash.~
+@550182 = ~You will both need to cast simple Protection From Evil spells upon your person.  Do this, and the energy which I gater to me will not cause you harm or disrupt your spellcasting.  Do you understand?~
+@550183 = ~Yes, Master Khaddyr.  You may continue with the rehearsal.~
+@550184 = ~Good.  During the ritual, do exactly as you just have.  You must not allow the power I gather to distract you.~
+@550185 = ~Rest now.  We will continue rehearsing later.~
+@550186 = ~The amount of magical energy that the three of us conjure and force to our wills is going to exceed what you normally have experienced.~
+@550187 = ~You must be protected from the combined and harnessed energies.  The magic of the ritual will cause this energy to pass between the conduits, in this case us.  Experience the might of Permatration now.~
+@550188 = ~What you have just experienced is only a fraction of the forces we will channel during the ritual.  There can be no mistake, you must not fail.~
+@550536 = ~I said no interruptions!  Do you dare profane my ceremonies?~
+@550537 = ~Slay them!  Slay them all!~
+@650355 = ~Fake Crown of Horns~
+@650356 = ~This is a fake duplicate of an item which would contain the ancient essence and intelligence of the former deity of death, Myrkul, the Lord of Bones.  It looks exactly the same as the silver circlet with a black diamond set on the brow and four bone horns mounted around its edge.  Simulated energy is visible within the diamond.  The real Crown of Horns is intelligent, evil, and exists only to cause evil and suffering among the people of the world.  This counterfeit does not.
+
+Myrkul created the crown while he was still a living diety, and it was eventually broken by the efforts of Khelben the Blackstaff.  The shards of the item retained some power, and when Myrkul was slain by Midnight (the mortal woman possess by the essence of Mystra), he forced his dying essence through the wards around Blackstaff Tower, reforged the crown in a new shape, imbuing it with additional powers, and then teleported away.
+
+The wearer of the fake Crown gains no abilities or powers.
+
+Note:  With the real Crown of Horn, the proper spells, and a lengthy ritual, a powerful and dedicated mage can attempt a Permatration ritual, giving him or her immense powers.  The danger that is chanced during such a ritual is great, and this artefact should only be used with caution.~
+@650357 = ~Statuette~
+@650358 = ~Reiteration Statuette~
+@650359 = ~This is a small statuette depicting a woman who seems to be listening intently, with her lips parted as if about to speak.~
+@650360 = ~The Reiteration Statuette is a rare and unique magical item.  It can be used to store words which can then be listened to at will at a later time.  Once the message has been stored, the magic remains, much like a Magic Mouth, until the command word is spoken, whereupon the stored message sounds with the exact tone, volume, emphasis, and sequence as when it was en-spelled into the Statuette.  The message will only be recited once, and a new- or same- message must be replaced with the proper spells.~
+@650361 = ~Amulet of the Archwizard~
+@650362 = ~These light, gold medallions on silver chains were worn under the clothes of an archwizard.  Each was stamped with the coat-of-arms of a particular city (so people thought it was nothing more than a status symbol).  The amulet acted as an amulet of proof against detection and location.  It allowed the wearer to teleport without error to any area of the city of Athkatla with the utterance of a command word.  Individual archwizards placed additional incantations on these amulets to suit their personal tastes and paranoia, such as a removable clasp that could be tossed aside just before the arcanist teleported away that activated like a delayed blast fireball.  This particular Amulet of the Archwizard will only work if the user is on the mainland of Faerun, thus the magic will have no effect in such places as the Underdark, the island of Brynnlaw, or other locations such as islands or other planes.
+
+STATISTICS:
+
+ Non-detectable by magical means such as detect invisibility and scrying while equipped
+
+ Can teleport the wearer to any location within Athkatla at will~
+
+@650363 = ~Staff of Eyes~
+@650364 = ~This is a spiraling staff with silver inlay and topped with a large piece of amber, the Staff of Eyes allows the use of the following spells once per day:
+ Wizard Eye
+ Cure Disease
+ True Sight
+
+STATISTICS:
+
+Damage:  1D6 + 1
+Damage type:  crushing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Quarterstaff
+Type:  2-handed
+Requires: 5 Strength
+
+Requires:
+  Level 10
+  5 Strength~
+
+@650365 = ~Ice Necklace of the Ulutiun~
+@650366 = ~Several of these necklaces of magically hardened and preserved ice were created by a half-mad sorcerer who wandered amoung the Ulutiun tribes of the Great Glacier.  Two of the acorn-sized ice crystals are obaque, four are transparent.  
+
+The wearer can detach a crystal and hurl it up to 80 feet before it melted down in his hands after 1 turn.  When the crystal reaches the end of its trajectory, it explodes in an Ice Storm.
+
+To use it properly the wearer must be proficient with Slings and have a free ammo slot.
+
+STATISTICS:
+
+Has 6 ice crystals~
+
+@650367 = ~Ice Crystal~
+
+@650368 = ~Blast Scepter~
+@650369 = ~These devices were made in Netheril.  A new Blast Scepter has 50 charges when created, but most are hundreds of years old and usually have only 1-10 charges when found.  
+
+A Blast Scepter is self-identifing and has the following powers:
+ - the user is immune to fire and lightning while holding the scepter
+ - the user cannot be knocked down or moved by a blast or detonation while holding the scepter.  The user takes half damage from any blast, such as a Horn of Blasting, Smokepowder detonation, or the blast power from another Blast Scepter (one-quarter with a successful saving throw)
+ - the user can stun a target by making a melee touch attack with the scepter.  The creature can avoid being stunned with a successful save versus wands, but is stunned for 1d4 rounds if the save fails (this power drains 1 charge)
+ - the user can blast opponents with a soundless wave of force in a cone 30 feet long.  Targes automatically take 2d6 points of damage and must make a save versus wands or be knocked off their feet (this power drains 2 charges)
+ - the user can powerstrike any creature or object with a melee touch attack.  The touch deals 10d6 points of damage, a Wand Save reduces this by half (this power drains 4 charges)
+
+STATISTICS:
+
+Special Abilities:
+  Immunity to Fire/Lightning
+  Protection from Wing Buffet
+  Blast Wave
+  Powerstrike
+Weight: 6
+Proficiencey Type: Club~
+@650372 = ~Metal Crown~
+@650373 = ~Crown of Horns~
+@650374 = ~A simple metal crown. It was found in the possession of Khaddyr.~
+@650375 = ~This item contains the ancient essence and intelligence of the former deity of death, Myrkul, the Lord of Bones.  It is a silver circlet with a black diamond set on the brow and four bone horns mounted around its edge.  Weird energy is visible within the diamond.  The Crown of Horns is intelligent, evil, and now exists only to cause evil and suffering among the people of the world.
+
+Myrkul created the crown while he was still a living diety, and it was eventually broken by the efforts of Khelben the Blackstaff.  The shards of the item retained some power, and when Myrkul was slain by Midnight (the mortal woman possess by the essence of Mystra), he forced his dying essence through the wards around Blackstaff Tower, reforged the crown in a new shape, imbuing it with additional powers, and then teleported away.  The crown enjoys harassing followers of Cyric, but avoids allies of Khelben and temples of Mystra.
+
+The wearer of the crown has the following powers:
+ * Fear aura as if he were a lich.
+ * Spell Resistance against Necromantic Spells and effects
+ * Cone of Undeath:  
+   Usable once per day, this effect is a 40-foot cone.  Creatures within the cone must make a save versus death or transformed 1d4 rounds later as wraiths under the control of the wearer.  This Cone of Undeath will not affect Party Members.
+ * Myrkul's Hand:
+   Once per day, the wearer can invoke black flames that cover one of his hands.  These flames are treated as a touch spell.  On a successful melee touch attack, the target must make a Death save or be transformed 1d4 rounds later as a spectre under the control of the wearer.
+
+The Crown also has the following drawbacks:
+ * The wearer changes alignment to neutral evil while the crown is worn.
+ * The crown cannot be removed unless Myrkul wills it.  Normally the only way the crown is removed is when it teleports itself away.
+ * The wearer is paranoid and possessive about the crown, keeping all others away from it.
+
+Note:  With this item, the proper spells, and a lengthy ritual, a powerful and dedicated mage can attempt a Permatration ritual, giving him or her immense powers.  The danger that is chanced during such a ritual is great, and this artefact should only be used with caution.~
+@650376 = ~Myrkul's Hand~
