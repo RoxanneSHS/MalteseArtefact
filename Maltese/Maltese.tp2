@@ -1,11 +1,12 @@
 BACKUP ~Maltese/backup~
 AUTHOR ~Roxanne@baldursextendedworld.com based on a Charles Bisson's CtB quest~
 
-AUTO_TRA ~Maltese/TRA~
+AUTO_TRA ~Maltese/TRA/%s~
 
-VERSION ~v0.1~
+VERSION ~v0.2~
 
-LANGUAGE ~English~ ~english~ ~Maltese/TRA/setup.tra~
+LANGUAGE ~English~ ~english~ ~Maltese/TRA/English/setup.tra~
+LANGUAGE ~Russian (by Arcanecoast.ru)~ ~russian~ ~Maltese/TRA/Russian/setup.tra~
 
 BEGIN ~Of Elves and Artefacts~
 
@@ -143,6 +144,6 @@ EXTEND_TOP ~ar1202.bcs~ ~Maltese/extend/ar1202.baf~
 EXTEND_TOP ~ar1401.bcs~ ~Maltese/extend/ar1401.baf~
 EXTEND_BOTTOM ~baldur.bcs~ ~Maltese/extend/Cyric.baf~
 
-ADD_JOURNAL @7 @8 USING ~Maltese/TRA/CBMALMGE.tra~
-ADD_JOURNAL @550163 @550164 @550158 USING  ~Maltese/TRA/setup.tra~
-ADD_JOURNAL @74 @75 @76 @77 @78 USING ~Maltese/TRA/CBYbgir1.tra~
+ADD_JOURNAL @7 @8 USING ~Maltese/TRA/%LANGUAGE%/CBMALMGE.tra~
+ADD_JOURNAL @550163 @550164 @550158 USING  ~Maltese/TRA/%LANGUAGE%/setup.tra~
+ADD_JOURNAL @74 @75 @76 @77 @78 USING ~Maltese/TRA/%LANGUAGE%/CBYbgir1.tra~
