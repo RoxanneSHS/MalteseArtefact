@@ -96,6 +96,11 @@ COPY ~Maltese/Itm/CBMALR3b.ITM~ ~override~
 
 COPY ~Maltese/SPL~ ~override~
 
+COPY_EXISTING ~SHOP06.STO~ ~override~
+ ADD_STORE_ITEM "potn34" #3 #0 #0 ~IDENTIFIED~ #5
+
+COPY_EXISTING ~Merchant.STO~ ~override~
+ ADD_STORE_ITEM "potn34" #2 #0 #0 ~IDENTIFIED~ #5
 
 APPEND ~ITEMDIAL.2DA~
 ~CBMALMGE      5689   CBMALMGE~
