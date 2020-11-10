@@ -24,12 +24,12 @@ END
 IF ~~ THEN BEGIN 4
   SAY @5
   IF ~Global("CbRelatesToElvesAndArtifacts","GLOBAL",1)~ THEN DO ~SetGlobal("CbMalteseArtifact","GLOBAL",4)
-AddJournalEntry(@7,QUEST)
-EraseJournalEntry(@8)~ EXIT
+AddJournalEntry(@1007,QUEST)
+EraseJournalEntry(@1008)~ EXIT
   IF ~!Global("CbRelatesToElvesAndArtifacts","GLOBAL",1)~ THEN DO ~RevealAreaOnMap("AR2000")
 SetGlobal("CbMalteseArtifact","GLOBAL",4)
-AddJournalEntry(@7,QUEST)
-EraseJournalEntry(@8)~ EXIT
+AddJournalEntry(@1007,QUEST)
+EraseJournalEntry(@1008)~ EXIT
 END
 
 IF ~PartyHasItemIdentified("CBMALMGE")

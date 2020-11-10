@@ -3,7 +3,7 @@ AUTHOR ~Roxanne@baldursextendedworld.com based on a Charles Bisson's CtB quest~
 
 AUTO_TRA ~Maltese/TRA/%s~
 
-VERSION ~v0.2~
+VERSION ~v0.3~
 
 LANGUAGE ~English~ ~english~ ~Maltese/TRA/English/setup.tra~
 LANGUAGE ~Russian (by Arcanecoast.ru)~ ~russian~ ~Maltese/TRA/Russian/setup.tra~
@@ -149,6 +149,4 @@ EXTEND_TOP ~ar1202.bcs~ ~Maltese/extend/ar1202.baf~
 EXTEND_TOP ~ar1401.bcs~ ~Maltese/extend/ar1401.baf~
 EXTEND_BOTTOM ~baldur.bcs~ ~Maltese/extend/Cyric.baf~
 
-ADD_JOURNAL @7 @8 USING ~Maltese/TRA/%LANGUAGE%/CBMALMGE.tra~
-ADD_JOURNAL @550163 @550164 @550158 USING  ~Maltese/TRA/%LANGUAGE%/setup.tra~
-ADD_JOURNAL @74 @75 @76 @77 @78 USING ~Maltese/TRA/%LANGUAGE%/CBYbgir1.tra~
+ADD_JOURNAL @1007 @1008 @550163 @550164 @550158 @10074 @10075 @10076 @10077 @10078 @100179 @100180 @100181 @100182 @100183 @100184 @100185 @100186 @100187 @100188 @100189 USING  ~Maltese/TRA/%LANGUAGE%/setup.tra~

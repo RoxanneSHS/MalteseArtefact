@@ -74,36 +74,36 @@ IF ~Global("CbCromwellForgesCrown","AR0334",1)
 PartyHasItem("CBMALDUP")~ THEN BEGIN CB_72
   SAY @118
   IF ~~ THEN REPLY @119 DO ~SetGlobal("CbCromwellForgesCrown","AR0334",2)
-AddJournalEntry(@179,QUEST)
-EraseJournalEntry(@180)
-EraseJournalEntry(@181)
-EraseJournalEntry(@182)
-EraseJournalEntry(@183)
-EraseJournalEntry(@184)
-EraseJournalEntry(@185)
-EraseJournalEntry(@186)~ EXIT
+AddJournalEntry(@100179,QUEST)
+EraseJournalEntry(@100180)
+EraseJournalEntry(@100181)
+EraseJournalEntry(@100182)
+EraseJournalEntry(@100183)
+EraseJournalEntry(@100184)
+EraseJournalEntry(@100185)
+EraseJournalEntry(@100186)~ EXIT
 END
 
 IF ~Global("CbCromwellForgesCrown","AR0334",1)
 !PartyHasItem("CBMALDUP")~ THEN BEGIN CB_73
   SAY @120
   IF ~~ THEN REPLY @121 DO ~SetGlobal("CbCromwellForgesCrown","AR0334",0)
-AddJournalEntry(@187,QUEST)~ EXIT
+AddJournalEntry(@100187,QUEST)~ EXIT
 END
 
 IF ~~ THEN BEGIN CB_74
   SAY @122
   IF ~~ THEN DO ~TakePartyItem("CBMALR6a")
-AddJournalEntry(@188,QUEST_DONE)
-EraseJournalEntry(@189)
-EraseJournalEntry(@179)
-EraseJournalEntry(@180)
-EraseJournalEntry(@181)
-EraseJournalEntry(@182)
-EraseJournalEntry(@183)
-EraseJournalEntry(@184)
-EraseJournalEntry(@185)
-EraseJournalEntry(@186)
+AddJournalEntry(@100188,QUEST_DONE)
+EraseJournalEntry(@100189)
+EraseJournalEntry(@100179)
+EraseJournalEntry(@100180)
+EraseJournalEntry(@100181)
+EraseJournalEntry(@100182)
+EraseJournalEntry(@100183)
+EraseJournalEntry(@100184)
+EraseJournalEntry(@100185)
+EraseJournalEntry(@100186)
 SetGlobal("CbCromwellDestroysCrown","AR0334",1)~ EXIT
 END
 

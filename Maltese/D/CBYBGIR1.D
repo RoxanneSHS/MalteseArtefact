@@ -281,17 +281,17 @@ END
 IF ~~ THEN BEGIN 51
   SAY @73
   IF ~Global("CbMalteseMageInWindspear","GLOBAL",1)~ THEN DO ~SetGlobal("CbKillOffYbgir","GLOBAL",1)
-AddJournalEntry(@74,QUEST)
-EraseJournalEntry(@77)
-EraseJournalEntry(@78)
+AddJournalEntry(@10074,QUEST)
+EraseJournalEntry(@10077)
+EraseJournalEntry(@10078)
 TakePartyItem("CBMALMGE")
 DestroyItem("CBMALMGE")
 MoveToPointNoInterrupt([1226.1104])
 EscapeArea()~ EXIT
   IF ~Global("CbMalteseMageInTemple","GLOBAL",1)~ THEN DO ~SetGlobal("CbKillOffYbgir","GLOBAL",1)
-AddJournalEntry(@75,QUEST)
-EraseJournalEntry(@77)
-EraseJournalEntry(@78)
+AddJournalEntry(@10075,QUEST)
+EraseJournalEntry(@10077)
+EraseJournalEntry(@10078)
 TakePartyItem("CBMALMGE")
 DestroyItem("CBMALMGE")
 MoveToPointNoInterrupt([1226.1104])
