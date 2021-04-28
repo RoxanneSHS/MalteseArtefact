@@ -2,6 +2,7 @@ IF
 Global("CbMalteseArtifact","GLOBAL",5)
 Global("CbMalteseMageInWindspear","GLOBAL",1)
 !Exists("CBMALR1")
+!Dead("CBMALR1")
 THEN
 RESPONSE #100
 ActionOverride("FIRWLF02",DestroySelf())

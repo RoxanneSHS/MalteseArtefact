@@ -3,7 +3,7 @@ AUTHOR ~Roxanne@baldursextendedworld.com based on a Charles Bisson's CtB quest~
 
 AUTO_TRA ~Maltese/TRA/%s~
 
-VERSION ~v0.3~
+VERSION ~v0.4~
 
 LANGUAGE ~English~ ~english~ ~Maltese/TRA/English/setup.tra~
 LANGUAGE ~Russian (by Arcanecoast.ru)~ ~russian~ ~Maltese/TRA/Russian/setup.tra~
