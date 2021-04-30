@@ -1,6 +1,6 @@
 EXTEND_TOP WSMITH01 0 1 2 3 4 5 6 58
   IF ~GlobalGT("CbMalteseArtifact","GLOBAL",4)
-      !GlobalGT("CbCromwellDestroysCrown","AR0334",0)~ THEN REPLY @3 GOTO CB_62
+      !GlobalGT("CbCromwellDestroysCrown","AR0334",0)Global("SPRITE_IS_DEADCBMALR1","GLOBAL",0)~ THEN REPLY @3 GOTO CB_62
 
   IF ~GlobalGT("CbMalteseArtifact","GLOBAL",4)
       PartyHasItem("CBMALR6a")
