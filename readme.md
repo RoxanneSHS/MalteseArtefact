@@ -31,6 +31,7 @@ Some modules require the worldmap mod because they add areas outside the standar
 - Holly the Elf https://github.com/RoxanneSHS/HollytheElf
 - Master Vampire https://github.com/RoxanneSHS/MasterVampire
 <br>
+It is recommended to use https://github.com/EE-Mod-Setup/EE-Mod-Setup for mod installation of these modules.
 &nbsp;</span></p>
 
 <p class=MsoNormal><span lang=EN-NZ>&nbsp;</span></p>
